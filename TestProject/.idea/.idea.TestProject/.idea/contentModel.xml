@@ -10,22 +10,27 @@
           <e p="ShaderList.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
-          <e p="Adapter" t="Include">
-            <e p="HorizontalListAdapter.cs" t="Include" />
-            <e p="TextItemAdapter.cs" t="Include" />
+          <e p="ScrollList" t="Include">
+            <e p="Adapter" t="Include">
+              <e p="SimpleItemAdapter.cs" t="Include" />
+              <e p="SimpleListAdapter.cs" t="Include" />
+            </e>
+            <e p="base" t="Include">
+              <e p="BaseItemAdapter.cs" t="Include" />
+              <e p="BaseListAdapter.cs" t="Include" />
+            </e>
+            <e p="Data" t="Include">
+              <e p="TextData.cs" t="Include" />
+            </e>
+            <e p="DataStruct" t="Include">
+              <e p="Window.cs" t="Include" />
+            </e>
+            <e p="Interface" t="Include">
+              <e p="IItemAdapter.cs" t="Include" />
+              <e p="IListAdapter.cs" t="Include" />
+            </e>
+            <e p="ScrollList.cs" t="Include" />
           </e>
-          <e p="base" t="Include">
-            <e p="BaseItemAdapter.cs" t="Include" />
-            <e p="BaseListAdapter.cs" t="Include" />
-          </e>
-          <e p="Data" t="Include">
-            <e p="TextData.cs" t="Include" />
-          </e>
-          <e p="Interface" t="Include">
-            <e p="IItemAdapter.cs" t="Include" />
-            <e p="IListAdapter.cs" t="Include" />
-          </e>
-          <e p="ScrollList.cs" t="Include" />
         </e>
         <e p="Shader" t="Include">
           <e p="testShader.shader" t="Include" />
