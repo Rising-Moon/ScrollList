@@ -5,35 +5,45 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Editor" t="Include">
-          <e p="ScrollListEditor.cs" t="Include" />
-          <e p="ShaderList.cs" t="Include" />
-        </e>
-        <e p="Scripts" t="Include">
+        <e p="New Folder" t="Include">
           <e p="ScrollList" t="Include">
-            <e p="Adapter" t="Include">
-              <e p="SimpleItemAdapter.cs" t="Include" />
-              <e p="SimpleListAdapter.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="ScrollListEditor.cs" t="Include" />
             </e>
-            <e p="base" t="Include">
-              <e p="BaseItemAdapter.cs" t="Include" />
-              <e p="BaseListAdapter.cs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="ScrollList" t="Include">
+                <e p="Adapter" t="Include">
+                  <e p="ListAdapter.cs" t="Include" />
+                </e>
+                <e p="base" t="Include">
+                  <e p="BaseItemAdapter.cs" t="Include" />
+                  <e p="BaseListAdapter.cs" t="Include" />
+                </e>
+                <e p="DataStruct" t="Include">
+                  <e p="Window.cs" t="Include" />
+                </e>
+                <e p="Example" t="Include">
+                  <e p="Adapter" t="Include">
+                    <e p="SingleTextItemAdapter.cs" t="Include" />
+                  </e>
+                  <e p="Data" t="Include">
+                    <e p="TextData.cs" t="Include" />
+                  </e>
+                  <e p="ScrollListTest.cs" t="Include" />
+                </e>
+                <e p="Interface" t="Include">
+                  <e p="IItemAdapter.cs" t="Include" />
+                  <e p="IListAdapter.cs" t="Include" />
+                </e>
+                <e p="UI" t="Include">
+                  <e p="ScrollList.cs" t="Include" />
+                </e>
+                <e p="Util" t="Include">
+                  <e p="SmoothMoveUtil.cs" t="Include" />
+                </e>
+              </e>
             </e>
-            <e p="Data" t="Include">
-              <e p="TextData.cs" t="Include" />
-            </e>
-            <e p="DataStruct" t="Include">
-              <e p="Window.cs" t="Include" />
-            </e>
-            <e p="Interface" t="Include">
-              <e p="IItemAdapter.cs" t="Include" />
-              <e p="IListAdapter.cs" t="Include" />
-            </e>
-            <e p="ScrollList.cs" t="Include" />
           </e>
-        </e>
-        <e p="Shader" t="Include">
-          <e p="testShader.shader" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
